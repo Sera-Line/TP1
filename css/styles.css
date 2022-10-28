@@ -1,1 +1,41 @@
-/* Feuille de styles CSS */
+table, th{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.container {
+    margin: auto;
+    background-color: #eeee;
+    font-family: sans-serif;
+    width: 600px;
+    padding: 32px;
+}
+html{
+    background-color: grey;
+}
+.RedLEGO {
+    color: #007bff;
+    font-style: italic;
+}
+a{
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#Droitepetit {
+    text-align: right;
+    font-size: 12px;
+}
+.image {
+    text-align: center;
+}

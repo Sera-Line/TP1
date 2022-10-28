@@ -1,32 +1,75 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-<h1>LEGO WebStore</h1>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO Webstore</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<a id="haut"></a>
+<div class="container">
 <body>
-Produit
-Acheter
+<h1>LEGO WebStore</h1>
 
-Acheter des LEGO
+<nav>
+        <hr>
+    <ul>
+<li><a href="/html/produit.html">Produit</a></li>
+<li><a href="/html/acheter.html">Acheter</a></li>
+    </ul>
+        <hr>
+       
+</nav>
+<h2>Acheter des <span class="RedLEGO">LEGO</span></h2>
+<br>
+<p>Remplissez le formulaire ci-dessous pour commander des <span class="RedLEGO">LEGO</span> !</p>
 
-Remplissez le formulaire ci-dessous pour commander des LEGO !
+<h3>Informations personnelles</h3>
 
-Informations personnelles
-Civilité: M. Mme.
-Nom:
+Civilité: 
+<input type="radio" name="M."> M. 
+<input type="radio" name="Mme."> Mme.
+<br>
+
+Nom : 
+<br>
+<input type="text" name="Nom">
+<br>
 Prénom:
+<br>
+<input type="text" name="prénom">
+<br>
 Mail:
+<br>
+<input type="mail" name="Mail">
 
-Informations de livraison
-Quantité commandée: 1 boîte 2 boîtes 3 boîtes 4 boîtes 5 boîtes
-Adresse de livraison:
+<h3>Informations de livraison</h3>
+<p>Quantité commandée:</p>
+<select name="quantité">
+<option value="1 boîte">1 boîte</option>
+<option value="2 boîtes">2 boîtes</option>
+<option value="3 boîtes">3 boîtes</option>
+<option value="4 boîtes">4 boîtes</option>
+<option value="5 boîtes">5 boîtes</option>
+</select>
+<p>Adresse de livraison:</p>
+<textarea name="Adresse de livraison" cols="13" rows="2"></textarea>
 
-Confirmation
+<h3>Confirmation</h3>
+<input type="checkbox">
 J'ai relu ma commande et certifie que ces informations sont correctes.
+<br>
+<br>
+<input type="button" value="Confirmer ma commande">
+<br>
+<hr>
 
-Retour en haut de page
-TP1 : Découverte de HTML et CSS
-L2 Développement Web - 2018
+<footer>
+<a href="#haut">Retour en haut de page</a>
+<p>TP1 : Découverte de HTML et CSS</p>
+<p>L2 Développement Web - 2018</p>
+</footer>
 </body>
+</div>
 </html>
